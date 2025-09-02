@@ -11,3 +11,20 @@ O repositório é organizado em pastas, com cada uma representando uma implement
 `/python-flask`: Implementação da API usando Python e o micro-framework Flask.
 
 
+## Conteúdo
+
+### API em Python + Flask (`/python-flask`)
+
+Esta API gerencia uma coleção de **receitas culinárias** e implementa as quatro operações básicas de um CRUD:
+
+#### **Endpoints**
+
+| Método | Rota                        | Descrição                               | Exemplo de Retorno |
+|--------|-----------------------------|----------------------------------------|---------------------|
+| **GET**    | `/receitas`                  | Retorna todas as receitas cadastradas | Lista de receitas |
+| **GET**    | `/receitas/<id>`             | Retorna uma receita específica pelo **ID** | Receita individual |
+| **POST**   | `/receitas`                  | Adiciona uma nova receita à lista | Nova receita criada |
+| **PUT**    | `/receitas/<id>`             | Atualiza uma receita existente | Receita atualizada |
+| **DELETE** | `/receitas/<id>`             | Remove uma receita pelo **ID** | Mensagem de sucesso |
+
+---
