@@ -10,6 +10,7 @@ O repositório é organizado em pastas, com cada uma representando uma implement
 
 `/python-flask`: Implementação da API usando Python e o micro-framework Flask.
 
+<br>
 
 ## Conteúdo
 
