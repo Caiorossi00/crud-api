@@ -8,9 +8,9 @@ Cada pasta contém uma versão completa e funcional da API, permitindo a compara
 
 O repositório é organizado em pastas, com cada uma representando uma implementação da API. Por exemplo:
 
-`/python-flask`: Implementação da API usando Python e o micro-framework Flask.  
-`/node-express`: Implementação da API usando Node.js e o framework Express.   
-`/go-gin`: Implementação da API usando Go e o framework Gin.
+`/Python-flask`: Implementação da API usando Python e o micro-framework Flask.  
+`/Node-express`: Implementação da API usando Node.js e o framework Express.   
+`/Go-gin`: Implementação da API usando Go e o framework Gin.
 
 <br>
 
