@@ -10,6 +10,7 @@ O repositório é organizado em pastas, com cada uma representando uma implement
 
 `/python-flask`: Implementação da API usando Python e o micro-framework Flask.  
 `/node-express`: Implementação da API usando Node.js e o framework Express.
+`/Go-gin`: Implementação da API usando Go e o framework Gin.
 
 <br>
 
@@ -44,6 +45,22 @@ Esta API gerencia uma coleção de **clientes** e implementa as quatro operaçõ
 | **POST**   | `/clientes`                  | Adiciona um novo cliente à lista | Novo cliente criado |
 | **PUT**    | `/clientes/:id`             | Atualiza um cliente existente | Cliente atualizado |
 | **DELETE** | `/clientes/:id`             | Remove um cliente pelo **ID** | Mensagem de sucesso |
+
+---
+
+### API em Go + Gin (`/go-gin`)
+
+Esta API gerencia uma coleção de **jogos** e implementa as quatro operações básicas de um CRUD, usando o framework **Gin**.
+
+#### **Endpoints**
+
+| Método | Rota                        | Descrição                               | Exemplo de Retorno |
+|--------|-----------------------------|----------------------------------------|---------------------|
+| **GET**    | `/jogos`                  | Retorna todos os jogos cadastrados | Lista de jogos |
+| **GET**    | `/jogos/:id`             | Retorna um jogo específico pelo **ID** | Jogo individual |
+| **POST**   | `/jogos`                  | Adiciona um novo jogo à lista | Novo jogo criado (201) |
+| **PUT**    | `/jogos/:id`             | Atualiza um jogo existente | Jogo atualizado |
+| **DELETE** | `/jogos/:id`             | Remove um jogo pelo **ID** | Mensagem de sucesso |
 
 ---
 
